@@ -1,0 +1,42 @@
+{
+  "name": "gruntmysql",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "http://sebastiankovacs.com/gruntplugin",
+  "author": {
+    "name": "Sebi Kovacs",
+    "email": "sebi.kovacs@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sebikovacs/gruntplugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebikovacs/gruntplugin/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://sebastiankovacs.com/gruntplugin/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.4",
+    "mysql": "~2.2.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
