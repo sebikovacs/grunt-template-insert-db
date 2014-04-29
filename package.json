@@ -17,7 +17,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://sebastiankovacs.com/gruntplugin/blob/master/LICENSE-MIT"
+      "url": "https://github.com/sebikovacs/grunt-template-insert-db/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -37,6 +37,6 @@
     "grunt": "~0.4.4"
   },
   "keywords": [
-    "gruntplugin"
+    "grunt, mysql, insert, template"
   ]
 }
