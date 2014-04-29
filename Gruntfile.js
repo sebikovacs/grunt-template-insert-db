@@ -29,16 +29,16 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    insertDB: {
+    insertTemplate: {
       custom_options: {
         options: {
           host: 'localhost',
           port: '3306',
-          user: 'root',
-          password: 'admin',
-          database: 'adlogica',
-          table: 'Design',
-          field: 'design_html'
+          user: 'testusername',
+          password: 'testpassword',
+          database: 'testdb',
+          table: 'testtable',
+          field: 'testfield'
         },
         files: {
           src: ['test/fixtures/*.html'], 

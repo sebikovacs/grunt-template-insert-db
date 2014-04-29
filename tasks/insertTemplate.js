@@ -12,7 +12,7 @@ var mysql      = require('mysql');
 var fs = require("fs");
 
 module.exports = function(grunt) {
-  grunt.registerMultiTask('insertDB', 'The best Grunt plugin ever.', function() {
+  grunt.registerMultiTask('insertTemplate', 'Insert templates into MySQL database', function() {
       var self = this;
       var options = this.options();
       var connection = mysql.createConnection(options);
