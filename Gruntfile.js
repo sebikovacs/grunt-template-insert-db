@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    mysql: {
+    insertDB: {
       custom_options: {
         options: {
           host: 'localhost',
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
           field: 'design_html'
         },
         files: {
-          'tmp/custom_options': ['test/fixtures/index.html'], 
+          src: ['test/fixtures/*.html'], 
         },
       },
     },
