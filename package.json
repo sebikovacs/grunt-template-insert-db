@@ -1,6 +1,6 @@
 {
-  "name": "gruntmysql",
-  "description": "The best Grunt plugin ever.",
+  "name": "grunt-template-db-insert",
+  "description": "Insert html template into mysql database",
   "version": "0.1.0",
   "homepage": "http://sebastiankovacs.com/gruntplugin",
   "author": {
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sebikovacs/gruntplugin.git"
+    "url": "git://github.com/sebikovacs/grunt-template-insert-db.git"
   },
   "bugs": {
-    "url": "https://github.com/sebikovacs/gruntplugin/issues"
+    "url": "https://github.com/sebikovacs/grunt-template-insert-db/issues"
   },
   "licenses": [
     {
