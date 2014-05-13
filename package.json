@@ -1,7 +1,7 @@
 {
   "name": "grunt-template-db-insert",
   "description": "Insert html templates into mysql database",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "homepage": "https://github.com/sebikovacs/grunt-template-insert-db",
   "author": {
     "name": "Sebi Kovacs",
