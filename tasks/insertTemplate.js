@@ -6,12 +6,15 @@
  * Licensed under the MIT license.
  */
 
-'use strict';
-
-var mysql      = require('mysql');
-var fs         = require("fs");
-
 module.exports = function(grunt) {
+  
+  'use strict';
+
+  var mysql      = require('mysql');
+  var fs         = require("fs");
+  var yfm = require('assemble-yaml');
+  var jsesc = require('jsesc');
+  
   grunt.registerMultiTask('insertTemplate', 'Insert templates into MySQL database', function() {
       
       var options = this.options();
