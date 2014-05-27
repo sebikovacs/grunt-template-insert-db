@@ -9,7 +9,6 @@
 'use strict';
 
 var mysql      = require('mysql');
-var async      = require('async');
 var fs         = require("fs");
 
 module.exports = function(grunt) {
